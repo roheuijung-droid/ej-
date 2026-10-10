@@ -1,6 +1,9 @@
 import { Book } from '../types/library';
 
 export const DEFAULT_GAS_ENDPOINT =
+  (typeof import.meta !== 'undefined' &&
+    import.meta.env &&
+    import.meta.env.VITE_GAS_ENDPOINT) ||
   'https://script.google.com/macros/s/AKfycbxuXTxmteYGTV5yr07OsensjdLP_Fgu5WznpJqmm2TztDpm7yUyD3IoF7Pm4fs661BZ/exec';
 
 const STORAGE_KEY_GAS_URL = 'library_gas_endpoint_url';

@@ -1,0 +1,6 @@
+{
+  "name": "스마트 도서관 관리 시스템",
+  "description": "구글 시트 연동 실시간 도서관 대시보드 및 직관적인 대출·반납 관리 웹 애플리케이션",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
